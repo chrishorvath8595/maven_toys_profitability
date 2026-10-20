@@ -9,3 +9,5 @@ wheels/
 # Virtual environments
 .venv
 data/raw
+data/processed/
+.DS_Store
