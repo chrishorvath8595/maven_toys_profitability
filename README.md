@@ -22,12 +22,16 @@ Teilfragen:
 - Visualisierung mit (Bibliothek ergänzen)
 
 ## Daten
-Datensatz "Mexico Toy Sales" von Maven Analytics: Verkäufe vom 01.01.2022 bis 30.09.2023 (829.262 Zeilen), Produkte, Filialen und Lagerbestand. Die Rohdaten sind nicht im Repository. (Quelle und Lizenz ergänzen.)
+Datensatz "Mexico Toy Sales" von Maven Analytics: Verkäufe vom 01.01.2022 bis 30.09.2023 (829.262 Zeilen), Produkte, Filialen und Lagerbestand. Die Rohdaten sind nicht im Repository.
+(Quelle: Maven Analytics, Lizenz: Public Domain)
 
 ## Setup
-1. Repository klonen: `git clone (URL)`
+1. Repository klonen: `git clone https://github.com/chrishorvath8595/maven_toys_profitability.git`
 2. Abhängigkeiten installieren: `uv sync`
-3. Die CSV-Dateien in `data/raw/` ablegen.
+3. Ordner für die Daten anlegen: `mkdir -p data/raw data/processed`
+4. Die CSV-Dateien in `data/raw/` ablegen.
+
+Die SQLite-Datenbank (`data/processed/maven_toys.db`) wird beim Ausführen von Notebook 02 automatisch erzeugt und muss nicht heruntergeladen werden.
 
 ## Ausführung
 Notebooks in dieser Reihenfolge ausführen:
