@@ -41,6 +41,14 @@ Notebooks in dieser Reihenfolge ausführen:
 3. `notebooks/03_daten_analysieren.ipynb`: Auswertung zu Teilfrage 1 bis 4
 4. `notebooks/04_diagramme_empfehlungen.ipynb`: Diagramme (gespeichert in `docs/figures`) und Handlungsempfehlungen
 
+Die zentralen SQL-Abfragen liegen zusätzlich als eigene Dateien im Ordner `sql/` und lassen sich auf der Datenbank `data/processed/maven_toys.db` ausführen:
+- `01_gewinn_je_monat.sql`: Umsatz, Gewinn und Marge je Monat
+- `02_gewinn_je_kategorie.sql`: Gewinn und Marge je Kategorie (Januar bis September 2022 gegen 2023)
+- `03_abc_analyse.sql`: ABC-Analyse mit Window Function
+- `04_colorbuds_anteil.sql`: Anteil von Colorbuds am Monatsgewinn
+- `05_lagerwert_je_kategorie.sql`: Lagerwert und Reichweite je Kategorie
+- `06_produkte_ohne_bestand.sql`: Produkt-Filial-Kombinationen ohne Lagerbestand
+
 Das Power-BI-Dashboard liegt als Datei in `powerbi/maven_toys_dashboard.pbix` (zum Öffnen wird Power BI Desktop benötigt).
 
 ## Ergebnisse
@@ -63,7 +71,7 @@ Im Vergleich Januar bis September 2022 gegen 2023 steigt der Umsatz um 31 % (5,3
 ### Stabilität des Gewinnbeitrags
 ![Monatsgewinn und Anteil von Colorbuds](docs/figures/stabilitaet_colorbuds.png)
 
-Der Anteil von Colorbuds am Monatsgewinn sinkt von 38,8 % im Januar 2022 auf 13,3 % im Dezember 2022 und liegt 2023 zwischen 10,6 und 14,5 %. Der Gewinn von Colorbuds fällt von 497.000 auf 233.000 USD und ist der größte Einzelfaktor für den Margenrückgang. Das Wachstum 2023 stammt vollständig aus 11 neu eingeführten Produkten (plus rund 352.000 USD), während die 24 Bestandsprodukte rund 100.000 USD verlieren. Der Variationskoeffizient des Monatsgewinns beträgt 0,12 und enthält Trend und Saisonalität.
+Der Anteil von Colorbuds am Monatsgewinn (rote Linie) sinkt von 38,8 % im Januar 2022 auf 13,3 % im Dezember 2022 und liegt 2023 zwischen 10,6 und 14,5 %. Auch in absoluten Zahlen ist der Rückgang deutlich: Im Vergleich Januar bis September fällt der Gewinn von Colorbuds von 497.000 USD (2022) auf 233.000 USD (2023). Das ist der größte Einzelfaktor für den Margenrückgang. Das Wachstum 2023 stammt vollständig aus 11 neu eingeführten Produkten (plus rund 352.000 USD), während die 24 Bestandsprodukte rund 100.000 USD verlieren. Der Variationskoeffizient des Monatsgewinns beträgt 0,12 und enthält Trend und Saisonalität.
 
 ### Kategorien und Standorte
 - Electronics hat die höchste Marge (48,1 und 40,6 %), verliert aber 39 % Gewinn. Art & Crafts ist 2023 mit 26 % des Gewinns die größte Quelle. Toys hat den größten Umsatz bei der niedrigsten Marge.
