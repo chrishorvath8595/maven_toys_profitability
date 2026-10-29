@@ -41,7 +41,7 @@ Notebooks in dieser Reihenfolge ausführen:
 3. `notebooks/03_daten_analysieren.ipynb`: Auswertung zu Teilfrage 1 bis 4
 4. `notebooks/04_diagramme_empfehlungen.ipynb`: Diagramme (gespeichert in `docs/figures`) und Handlungsempfehlungen
 
-Die zentralen SQL-Abfragen liegen zusätzlich als eigene Dateien im Ordner `sql/` und lassen sich auf der Datenbank `data/processed/maven_toys.db` ausführen:
+Die zentralen Auswertungen sind zusätzlich als reine SQL-Abfragen im Ordner `sql/` abgelegt. Sie liefern dieselben Ergebnisse wie die Python-Auswertung in den Notebooks (alternativer Rechenweg) und lassen sich auf der Datenbank `data/processed/maven_toys.db` ausführen:
 - `01_gewinn_je_monat.sql`: Umsatz, Gewinn und Marge je Monat
 - `02_gewinn_je_kategorie.sql`: Gewinn und Marge je Kategorie (Januar bis September 2022 gegen 2023)
 - `03_abc_analyse.sql`: ABC-Analyse mit Window Function
