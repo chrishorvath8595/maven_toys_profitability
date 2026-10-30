@@ -80,7 +80,8 @@ Der Anteil von Colorbuds am Monatsgewinn (rote Linie) sinkt von 38,8 % im Januar
 ### Lager und Kapitalbindung
 - Die Reichweite liegt je Kategorie bei 0,5 bis 0,8 Monaten. Bei einer angenommenen Zielreichweite von einem Monat liegen 25.383 USD (8,5 % des Lagerwerts) über dem Bedarf, vor allem bei Dinosaur Figures, PlayDoh Playset und Supersoaker Water Gun.
 - Schnelldreher wie Dino Egg, Lego Bricks und Colorbuds haben nur 0,2 bis 0,4 Monate Reichweite.
-- Nicht jede Filiale führt jedes Produkt: Im Lager sind 1.593 von 1.750 möglichen Produkt-Filial-Kombinationen geführt. 77 davon (4,8 %) haben einen Bestand von 0.
+- Nicht jede Filiale führt jedes Produkt: Im Lager sind 1.593 von 1.750 möglichen Produkt-Filial-Kombinationen geführt. Sechs Produkte werden nur in 25 oder 26 der 50 Filialen geführt, darunter Monopoly, Chutes & Ladders, Uno und Classic Dominoes, der Kern der C-Klasse. Das erklärt den niedrigen Gewinn teilweise. Pro Filiale bleiben Classic Dominoes, Uno und Chutes & Ladders trotzdem schwach.
+- 77 Produkt-Filial-Kombinationen (4,8 %) haben einen Bestand von 0, am häufigsten bei Playfoam (13 Filialen) und Hot Wheels 5-Pack (12).
 
 ### Dashboard
 ![Power-BI-Dashboard](docs/figures/dashboard.png)
@@ -91,7 +92,7 @@ Das Dashboard zeigt auf einer Seite die Kennzahlen, den Monatsverlauf, die Top-P
 1. **Rückgang von Colorbuds untersuchen:** Das Produkt trägt am meisten zum Gewinn bei, sein Anteil sinkt aber seit Anfang 2022. Ursachen (Wettbewerb, Preis, Sortiment) klären, bevor weiter auf das Produkt gesetzt wird.
 2. **Neueinführungen fördern, Bestandssortiment prüfen:** Das Wachstum kommt aus neuen Produkten. Bestandsprodukte mit sinkendem Gewinn sollten auf Preis, Platzierung und Sortimentsbedarf geprüft werden.
 3. **Marge neben dem Umsatz steuern:** Der Umsatz wächst deutlich stärker als der Gewinn. Der Produktmix sollte an der Marge ausgerichtet werden, nicht nur am Umsatz.
-4. **Fehlbestände bei Schnelldrehern vermeiden:** Schnelldreher haben nur 0,2 bis 0,4 Monate Reichweite, und 77 Produkt-Filial-Kombinationen sind ohne Bestand. Nachbestellpunkte für diese Produkte prüfen.
+4. **Fehlbestände bei Schnelldrehern vermeiden:** Schnelldreher wie Dino Egg, Hot Wheels 5-Pack und Playfoam haben nur 0,2 bis 0,4 Monate Reichweite, und 77 Produkt-Filial-Kombinationen (4,8 %) haben aktuell keinen Bestand, am häufigsten bei Playfoam (13 Filialen) und Hot Wheels 5-Pack (12). Nachbestellpunkte für diese Produkte prüfen und fehlende Kombinationen gezielt auffüllen. Bei Teddy Bear und Plush Pony deutet der Fehlbestand trotz hoher Gesamtreichweite auf eine ungleiche Verteilung zwischen den Filialen hin.
 5. **Überbestand bei wenigen Produkten abbauen:** Rund 25.000 USD liegen über der Zielreichweite, konzentriert auf wenige Produkte.
 6. **Standortfokus prüfen:** Die Marge sinkt in allen Filialtypen. Die Ergebnisse je Filiale und Filialtyp sollten bei der Standortplanung berücksichtigt werden.
 
