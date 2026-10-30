@@ -66,7 +66,7 @@ Im Vergleich Januar bis September 2022 gegen 2023 steigt der Umsatz um 31 % (5,3
 ### Konzentration des Gewinns (ABC-Analyse)
 ![Pareto-Diagramm der ABC-Analyse](docs/figures/pareto_abc.png)
 
-16 von 35 Produkten (A-Produkte) erzeugen rund 82 % des Gesamtgewinns von 4.014.029 USD. Die fünf besten Produkte liefern 47,9 %. Colorbuds allein trägt 20,8 % bei und ist damit ein Klumpenrisiko.
+16 von 35 Produkten (A-Produkte) erzeugen rund 82 % des Gesamtgewinns von 4.014.029 USD. Die fünf besten Produkte liefern 47,9 %. Colorbuds allein trägt über den gesamten Zeitraum 20,8 % bei und war damit lange ein Klumpenrisiko. Sein Anteil am Monatsgewinn ist inzwischen auf 10,6 bis 14,5 % (2023) gesunken.
 
 ### Stabilität des Gewinnbeitrags
 ![Monatsgewinn und Anteil von Colorbuds](docs/figures/stabilitaet_colorbuds.png)
@@ -92,7 +92,7 @@ Das Dashboard zeigt auf einer Seite die Kennzahlen, den Monatsverlauf, die Top-P
 1. **Rückgang von Colorbuds untersuchen:** Das Produkt trägt am meisten zum Gewinn bei, sein Anteil sinkt aber seit Anfang 2022. Ursachen (Wettbewerb, Preis, Sortiment) klären, bevor weiter auf das Produkt gesetzt wird.
 2. **Neueinführungen fördern, Bestandssortiment prüfen:** Das Wachstum kommt aus neuen Produkten. Bestandsprodukte mit sinkendem Gewinn sollten auf Preis, Platzierung und Sortimentsbedarf geprüft werden.
 3. **Marge neben dem Umsatz steuern:** Der Umsatz wächst deutlich stärker als der Gewinn. Der Produktmix sollte an der Marge ausgerichtet werden, nicht nur am Umsatz.
-4. **Fehlbestände bei Schnelldrehern vermeiden:** Schnelldreher wie Dino Egg, Hot Wheels 5-Pack und Playfoam haben nur 0,2 bis 0,4 Monate Reichweite, und 77 Produkt-Filial-Kombinationen (4,8 %) haben aktuell keinen Bestand, am häufigsten bei Playfoam (13 Filialen) und Hot Wheels 5-Pack (12). Nachbestellpunkte für diese Produkte prüfen und fehlende Kombinationen gezielt auffüllen. Bei Teddy Bear und Plush Pony deutet der Fehlbestand trotz hoher Gesamtreichweite auf eine ungleiche Verteilung zwischen den Filialen hin.
+4. **Fehlbestände bei Schnelldrehern vermeiden:** Schnelldreher wie Dino Egg und Hot Wheels 5-Pack haben nur 0,2 bis 0,4 Monate Reichweite, und 77 Produkt-Filial-Kombinationen (4,8 %) haben aktuell keinen Bestand, am häufigsten bei Playfoam (13 Filialen, erst seit August 2023 im Sortiment) und Hot Wheels 5-Pack (12). Nachbestellpunkte für diese Produkte prüfen und fehlende Kombinationen gezielt auffüllen. Bei Teddy Bear und Plush Pony deutet der Fehlbestand trotz hoher Gesamtreichweite auf eine ungleiche Verteilung zwischen den Filialen hin.
 5. **Überbestand bei wenigen Produkten abbauen:** Rund 25.000 USD liegen über der Zielreichweite, konzentriert auf wenige Produkte.
 6. **Standortfokus prüfen:** Die Marge sinkt in allen Filialtypen. Die Ergebnisse je Filiale und Filialtyp sollten bei der Standortplanung berücksichtigt werden.
 
