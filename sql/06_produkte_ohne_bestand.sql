@@ -5,4 +5,4 @@ SELECT
 FROM inventory_full
 WHERE Stock_On_Hand = 0
 GROUP BY Product_Name
-ORDER BY Stores_Without_Stock DESC;
+ORDER BY Stores_Without_Stock DESC, Product_Name;

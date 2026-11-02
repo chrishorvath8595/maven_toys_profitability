@@ -1,11 +1,11 @@
 # Profitabilität einer Spielwarenkette (Maven Toys)
 
-Analyse von Verkaufs- und Lagerdaten einer fiktiven Spielwarenkette in Mexiko: Welche Produkte und Standorte tragen am stärksten zum Gewinn bei, und wo ist Kapital im Lager gebunden?
+Analyse der Verkaufs- und Lagerdaten einer fiktiven Spielwarenkette in Mexiko: Welche Produkte und Standorte tragen am stärksten zum Gewinn bei, und wo ist Kapital im Lager gebunden?
 
 ## Projektübersicht
 
 ### Problemstellung
-Eine Spielwarenkette mit 50 Filialen und 35 Produkten will wissen, womit sie ihr Geld verdient und wo Kapital gebunden ist. Die Rohdaten liegen in mehreren Tabellen vor und müssen erst bereinigt und verbunden werden.
+Eine Spielwarenkette mit 50 Filialen und 35 Produkten möchte herausfinden, mit welchen Produkten sie ihr Geld verdient und wo Kapital gebunden ist. Die Rohdaten liegen in mehreren Tabellen vor und müssen erst bereinigt und verbunden werden.
 
 ### Ziel
 Untersuchungsfrage: Welche Produkte und Standorte tragen am stärksten zum Gewinn bei, wie stabil ist dieser Beitrag, und wo ist Kapital im Lager gebunden?
@@ -17,7 +17,7 @@ Teilfragen:
 4. Wo ist Kapital im Lager gebunden?
 
 ### Methoden
-- Python (pandas) für Bereinigung und Auswertung
+- Python (Pandas) für die Bereinigung und Auswertung
 - SQL (SQLite über SQLAlchemy) für JOINs und Abfragen
 - Visualisierung mit matplotlib
 - Power BI für ein Dashboard mit den wichtigsten Kennzahlen
@@ -89,7 +89,7 @@ Der Anteil von Colorbuds am Monatsgewinn (rote Linie) sinkt von 38,8 % im Januar
 Das Dashboard zeigt auf einer Seite die Kennzahlen, den Monatsverlauf, die Top-Produkte, die Filialtypen und den Lagerwert.
 
 ### Handlungsempfehlungen
-1. **Rückgang von Colorbuds untersuchen:** Das Produkt trägt am meisten zum Gewinn bei, sein Anteil sinkt aber seit Anfang 2022. Ursachen (Wettbewerb, Preis, Sortiment) klären, bevor weiter auf das Produkt gesetzt wird.
+1. **Rückgang von Colorbuds untersuchen:** Das Produkt trägt am meisten zum Gewinn bei, sein Anteil sinkt aber seit Anfang 2022. Ursachen (Wettbewerb, Produktlebenszyklus, Verfügbarkeit) klären, bevor weiter auf das Produkt gesetzt wird.
 2. **Neueinführungen fördern, Bestandssortiment prüfen:** Das Wachstum kommt aus neuen Produkten. Bestandsprodukte mit sinkendem Gewinn sollten auf Preis, Platzierung und Sortimentsbedarf geprüft werden.
 3. **Marge neben dem Umsatz steuern:** Der Umsatz wächst deutlich stärker als der Gewinn. Der Produktmix sollte an der Marge ausgerichtet werden, nicht nur am Umsatz.
 4. **Fehlbestände bei Schnelldrehern vermeiden:** Schnelldreher wie Dino Egg und Hot Wheels 5-Pack haben nur 0,2 bis 0,4 Monate Reichweite, und 77 Produkt-Filial-Kombinationen (4,8 %) haben aktuell keinen Bestand, am häufigsten bei Playfoam (13 Filialen, erst seit August 2023 im Sortiment) und Hot Wheels 5-Pack (12). Nachbestellpunkte für diese Produkte prüfen und fehlende Kombinationen gezielt auffüllen. Bei Teddy Bear und Plush Pony deutet der Fehlbestand trotz hoher Gesamtreichweite auf eine ungleiche Verteilung zwischen den Filialen hin.
@@ -102,6 +102,8 @@ Das Dashboard zeigt auf einer Seite die Kennzahlen, den Monatsverlauf, die Top-P
 - Ausreißer bei den verkauften Stückzahlen (bis 30 Stück) bleiben im Datensatz, der größte Einzelverkauf bringt 150 USD Gewinn.
 
 ## About me
-Ich habe einen Bachelor in Volkswirtschaftslehre mit Vertiefung Finance und absolviere aktuell eine Weiterbildung zum Data Analyst bei StackFuel. Mein Interesse gilt Controlling, Business Intelligence und Finance. Dieses Projekt ist mein Portfolioprojekt: Es zeigt den Weg von den Rohdaten über Bereinigung, SQL und Analyse mit Python bis zum Dashboard in Power BI.
+Ich habe einen Bachelor in Volkswirtschaftslehre mit Vertiefung Finance und absolviere aktuell eine Weiterbildung zum Data Analyst bei StackFuel. Mein Interesse gilt Controlling, Business Intelligence und Finance.
+
+Dieses Projekt ist mein Portfolioprojekt. Es zeigt den Weg von den Rohdaten über Bereinigung, SQL und Analyse mit Python bis zum Dashboard in Power BI. Dabei war es mir besonders wichtig, Ergebnisse nachvollziehbar zu begründen und ihre Grenzen offen zu benennen.
 
 GitHub: [chrishorvath8595](https://github.com/chrishorvath8595)
