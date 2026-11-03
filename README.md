@@ -61,7 +61,7 @@ Das Power-BI-Dashboard liegt als Datei in `powerbi/maven_toys_dashboard.pbix` (z
 | Gewinnmarge | 27,8 % |
 | Lagerwert (zu Kosten) | 300.210 USD |
 
-Im Vergleich Januar bis September 2022 gegen 2023 steigt der Umsatz um 31 % (5,32 auf 6,96 Mio. USD), der Gewinn aber nur um 16 % (1,57 auf 1,82 Mio. USD). Die Marge sinkt von 29,5 % auf 26,2 %. Preise und Kosten je Produkt sind konstant, der Rückgang entsteht durch den Produktmix: Rund ein Drittel zwischen den Kategorien, rund zwei Drittel innerhalb der Kategorien.
+Im Vergleich Januar bis September 2022 gegen 2023 steigt der Umsatz um 31 % (5,32 auf 6,96 Mio. USD), der Gewinn aber nur um 16 % (1,57 auf 1,82 Mio. USD). Die Marge sinkt von 29,5 % auf 26,2 %. Preise und Kosten je Produkt sind konstant, der Rückgang entsteht durch den Produktmix: Der Umsatz verschiebt sich von margenstarken Produkten, vor allem aus Electronics, zu margenschwächeren.
 
 ### Konzentration des Gewinns (ABC-Analyse)
 ![Pareto-Diagramm der ABC-Analyse](docs/figures/pareto_abc.png)
